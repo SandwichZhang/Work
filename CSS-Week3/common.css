@@ -1,0 +1,25 @@
+
+input {
+    width: 350px;
+    height: 70px;
+    border-style: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+input::placeholder {
+    font-size: 19.2px;
+    color: white;
+}
+
+input:hover {
+    background-color: white;
+    opacity: 25%;
+}
+
+button {
+    width: 266px;
+    height: 46px;
+    border-style: none;
+    background-color: transparent;
+}

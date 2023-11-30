@@ -1,0 +1,433 @@
+
+.header-background {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+    background: url("../images/demo1.jpg")no-repeat;
+}
+
+.header-flex {
+    position: relative;
+    width: 1200px;
+    height: 98px;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    position: relative;
+    width: 238px;
+    height: 98px;
+    font-family:"Microsoft Yahei";
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+    padding-left: 5%;
+}
+
+.box3 {
+    background-color: red;
+}
+
+.header-textarea {
+    position: relative;
+    top: 226px;
+    left: 17%;
+    width: 994px;
+    height: 214px;
+    background-color: blueviolet;
+    background: url("../images/index-banner-text-logo.png") no-repeat;
+}
+
+.background {
+    position: relative;
+    top: 30px;
+    background-color: #eae7e8;
+    width: 100%;
+    height: 450px;
+}
+
+.welcome {
+    position: relative;
+    top: 40px;
+    left: 10%;
+    width: 1200px;
+    height: 504px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-pic {
+    width: 420px;
+    height: 504px;
+    background-color: greenyellow;
+    background: url("../images/welcome-pic.png");
+}
+
+.welcome-textarea {
+    width: 780px;
+    height: 504px;
+    background-color:grey;
+}
+
+.welcome-title {
+    position: relative;
+    top: 74px;
+    left: 80px;
+    width: 438px;
+    height: 48px;
+    background-color: indigo;
+    background: url("../images/welcome-title.png")no-repeat;
+    padding-top: 100px;
+}
+
+p {
+    padding-left: 10%;
+    font-size: 20px;
+}
+
+.welcome-video {
+    position: absolute;
+    bottom: -68px;
+    left: 120px;
+    width: 366px;
+    height: 238px;
+    background-color: khaki;
+    background: url("../images/series-video.png");
+}
+
+.video-player {
+    position: relative;
+    top:78px;
+    left: 40%;
+    width: 58px;
+    height: 58px;
+    background-color: yellow;
+    background: url("../images/series-videoplayer.png");
+}
+
+.lamy-series {
+    position: relative;
+    top: 268px;
+    left: 10%;
+    width: 1200px;
+    height: 580px;
+    background-color: white;
+}
+
+.series-title {
+    position: relative;
+    top: 50px;
+    left: 446px;
+    width: 300px;
+    height: 45px;
+    background-color: white;
+    background: url("../images/series-title.png");
+}
+
+.series-flex {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lamy-box {
+    width: 380px;
+    height: 230px;
+    background-color: white;
+}
+
+.series-button {
+    position: relative;
+    top: 200px;
+    left: 40%;
+    width: 242px;
+    height: 68px;
+    background-color: red;
+    background: url("../images/series-button.png")no-repeat;
+}
+
+.pen-background {
+    position: relative;
+    top: 268px;
+    background-color: #dad8d9;
+    width: 100%;
+    height: 390px;
+}
+
+.pen-pic {
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 1200px;
+    height: 390px;
+}
+
+.evaluate-background {
+    position: relative;
+    top: 267px;
+    width: 100%;
+    height: 350px;
+    background-color:#6f6d6d;
+}
+
+.evaluate-title {
+    position: relative;
+    top: 80px;
+    left: 40%;
+    width: 302px;
+    height: 57px;
+    background: url("../images/evaluate-title.png");
+}
+
+.evaluate-textarea {
+    position: relative;
+    top: 170px;
+    left: 23%;
+    width: 814px;
+    height: 274px;
+    background-color: white;
+    background: url("../images/evaluate.png");
+}
+
+.products-background {
+    position: relative;
+    top: 328px;
+    width: 100%;
+    height: 1012px;
+}
+
+.products-title {
+    position: relative;
+    top: 100px;
+    left: 47%;
+    width: 156px;
+    height: 52px;
+    background-color: yellowgreen;
+    background: url("../images/products-title.png");
+}
+
+.products-flex1 {
+    position: relative;
+    top:180px;
+    left: 20%;
+    width: 254px;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-pic1 {
+    position: relative;
+    width: 249px;
+    height: 230px;
+    background-color: aquamarine;
+    background: url("../images/products-pic1.png")no-repeat;
+}
+
+.products-pic2 {
+    position: relative;
+    width: 249px;
+    height: 303px;
+    background-color: red;
+    background: url("../images/products-pic2.png")no-repeat;
+}
+
+.products-flex2 {
+    position: relative;
+    top: -374px;
+    left: 44%;
+    width: 249px;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-pic3 {
+    position: relative;
+    width: 249px;
+    height: 303px;
+    background-color: blueviolet;
+    background: url("../images/products-pic3.png");
+}
+
+.products-pic4 {
+    position: relative;
+    width: 249px;
+    height: 230px;
+    background-color: brown;
+    background: url("../images/products-pic4.png");
+}
+
+.products-flex3 {
+    position: relative;
+    top:-928px;
+    left: 68%;
+    width: 294px;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-pic5 {
+    position: relative;
+    width: 249px;
+    height: 230px;
+    background-color: chartreuse;
+    background: url("../images/products-pic5.png")no-repeat;
+}
+
+.products-pic6 {
+    position: relative;
+    width: 249px;
+    height: 303px;
+    background-color: chocolate;
+    background: url("../images/products-pic6.png");
+}
+
+.products-button {
+    position: relative;
+    top:-850px;
+    left: 45%;
+    width: 221px;
+    height: 68px;
+    background: url("../images/products-button.png");
+}
+
+.products-bgc {
+    position: relative;
+    top: -790px;
+    width: 100%;
+    height: 341px;
+    background-color: chocolate;
+    background: url("../images/products-bgc.png");
+}
+
+.products-info {
+    position: relative;
+    top: -1050px;
+    left: 23%;
+    width: 875px;
+    height: 432px;
+    background-color: white;
+}
+
+.products-flex4 {
+    position: relative;
+    width: 377px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-pic7 {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: 377px;
+    height: 121px;
+    background-color: darkblue;
+    background: url("../images/products-pic7.png");
+}
+
+.products-pic8 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 377px;
+    height: 121px;
+    background-color: darkcyan;
+    background: url("../images/products-pic8.png");
+}
+
+.products-pic9 {
+    position: relative;
+    top: -5px;
+    left: 5px;
+    width: 377px;
+    height: 121px;
+    background-color: darkgreen;
+    background: url("../images/products-pic9.png");
+}
+
+.products-flex5 {
+    position: relative;
+    top: -397px;
+    left: 46%;
+    width: 426px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-pic10 {
+    position: relative;
+    top: 20px;
+    width: 426px;
+    height: 54px;
+    background-color: darkturquoise;
+    background: url("../images/products-pic10.png")no-repeat;
+}
+
+.products-pic11 {
+    position: relative;
+    top: -20px;
+    width: 426px;
+    height: 58px;
+    background-color: deeppink;
+    background: url("../images/products-pic11.png")no-repeat;
+}
+
+.products-pic12 {
+    position: relative;
+    top: -30px;
+    width: 426px;
+    height: 54px;
+    background-color: firebrick;
+    background: url("../images/products-pic12.png")no-repeat;
+}
+
+.products-buttion1 {
+    position: relative;
+    top: -1030px;
+    left: 45%;
+    width: 202px;
+    height: 60px;
+    background-color: olive;
+    background: url("../images/tuijie-button.png");
+}
+
+.footer {
+    position: relative;
+    top: 950px;
+    left: -200px;
+    width: 1920px;
+    height: 978px;
+    background-color: orange;
+    background: url("../images/footer.png");
+}
+
+.end {
+    position: relative;
+    top: 928px;
+    left: -200px;
+    width: 1920px;
+    height: 36px;
+    background-color: palegreen;
+    background: url("../images/end.png");
+}

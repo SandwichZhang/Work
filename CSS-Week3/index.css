@@ -1,0 +1,99 @@
+
+.background {
+    position: relative;
+    /*为原界面宽高的0.6*/
+    width: 360px;/*宽和高是盒子模型的内容区*/
+    height: 636px;
+    background-color: red;
+    background: url("../images/background.png")no-repeat;
+}
+
+.header-flex {
+    width: 360px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    margin-top: 16px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    background: url("../images/Back.png")no-repeat;
+}
+
+.back:hover {
+    background-color: white;
+    opacity: 25%;
+}
+
+.signup {
+    margin-top: 16px;
+    width: 66px;
+    height: 18px;
+    background-color: pink;
+    background: url("../images/Sign\ Up.png")no-repeat;
+}
+
+.info {
+    margin-top: 16px;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    background: url("../images/Info.png")no-repeat;
+}
+
+.info:hover {
+    background-color: white;
+    opacity: 25%;
+}
+
+.Photo {/*块状元素Photo在background的包含下,自上而下垂直分布,上面有了header-flex所以Photo在header-flex下面*/
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    background-color: blueviolet;
+    background: url("../images/Photo.png");
+}
+
+.Photo:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+.Field {
+    width: 360px;
+    height: 330px;
+    background-color: transparent;
+}
+
+.box {
+    margin: 5px;
+    height: 70px;
+}
+
+.Button {
+    margin: 0 auto;
+    border-radius: 28px;
+    width: 266px;
+    height: 46px;
+    background-color: chocolate;
+    background: url("../images/Button.png")no-repeat;
+}
+
+.Button:hover {
+    border: 3px solid black;
+}
+
+.signin {
+    margin: 0 auto;
+    width: 165px;
+    height: 14px;
+    background-color: purple;
+    background: url("../images/Allready\ a\ member_\ Sign\ In.png")no-repeat;
+}
